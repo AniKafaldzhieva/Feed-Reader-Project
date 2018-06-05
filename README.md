@@ -6,6 +6,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 To run this application download the repository and open the index.html file in your favourite browser. Or you can simply visit the link below:
 
+https://anikafaldzhieva.github.io/Feed-Reader-Project/
 
 # Code dependencies
 
