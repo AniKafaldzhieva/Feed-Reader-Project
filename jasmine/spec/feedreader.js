@@ -34,7 +34,7 @@ $(function() {
             for (const feed of allFeeds) {
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
-            }
+            };
         });
 
         /* A test that loops through each feed
@@ -45,7 +45,7 @@ $(function() {
             for (const feed of allFeeds) {
                 expect(feed.name).toBeDefined();
                 expect(feed.name.length).not.toBe(0);
-            }
+            };
         });
 
     });
@@ -116,14 +116,14 @@ $(function() {
                 feed = $('.feed').html();
 
                 loadFeed(1,done);
-            })
-        })
+            });
+        });
 
         it('ensures content actually changes', function(){
             newFeed = $('.feed').html();
 
             expect(feed).not.toBe(newFeed);
-        })
+        });
 
     });
 }());
